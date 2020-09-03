@@ -10,8 +10,8 @@ class Player {
         this.id = player.id;
         this.name = player.name;
         this.city = player.city;
-        this.state = player.state
-        this.games = player.games;
+        this.state = player.state;
+        this.games = player.games
     }
     // Creating a Player POST fetch
     static createPlayer() {
@@ -36,7 +36,7 @@ class Player {
                     if (!res.ok) {
                         throw new Error();
                     }
-                    return res.json;
+                    return res.json();
                 })
                 .then (player => {
                     let newPlayer = new Player(player)
