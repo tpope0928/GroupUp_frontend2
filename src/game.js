@@ -67,11 +67,11 @@ class Game {
                 .then(json => {
                     let newGame = new Game(json);
                     console.log(newGame)
-                newGame.appendGame()
-            })
-            .catch(error => {
-                console.error('Game Class Error', error)
-            })
+                    newGame.appendGame()
+                })
+                .catch(error => {
+                    console.error('Game Class Error', error)
+                })
         })
     }
 

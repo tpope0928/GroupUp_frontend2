@@ -62,3 +62,4 @@ class Player {
         body.appendChild(div);
     }
 }
+
