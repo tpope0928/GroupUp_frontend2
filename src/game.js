@@ -7,8 +7,6 @@ class Game {
         this.id = game.id;
         this.title = game.title;
         this.genre = game.genre;
-        this.skill_level = game.skill_level;
-        this.game_username = game.game_username
     }
 
     static newGameForm(player_id){
@@ -22,12 +20,6 @@ class Game {
         <br>
         <label>Genre:</label>
         <input type="text" id="game-genre" placeholder="Game Genre">
-        <br>
-        <label>Skill Level:</label>
-        <input type="number" id="game-skill-level" placeholder="Skill Level">
-        <br>
-        <label>Game Username:</label>
-        <input type="text" id="game-username" placeholder="Game Username">
         <br>
         <input type="submit">
         </form>        

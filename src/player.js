@@ -57,7 +57,7 @@ class Player {
         let gc = document.getElementById('games-container')
         gc.classList.remove('hidden')
         let Greeting = document.createElement('p');
-        Greeting.innerHTML = `<h1>Hi ${this.name}! What game would you like to find players in?</h1>`
+        Greeting.innerHTML = `<h1>Hi ${this.name}! Input the game you would like to find players in?</h1>`
         div.appendChild(Greeting);
         body.appendChild(div);
     }
